@@ -37,7 +37,7 @@ public class Author {
 
     @Override
     public String toString() {
-        return "Authors{" +
+        return "author{" +
                 "name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", gender=" + gender +

@@ -46,7 +46,7 @@ public class Circle implements Integrable {
 
     @Override
     public String toString() {
-        return "Figures.Figures.Figures.Circles{" +
+        return "Circles{" +
                 "radius=" + radius +
                 ", color='" + color + '\'' +
                 '}';

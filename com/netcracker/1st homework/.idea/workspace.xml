@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c42c1e65-09b8-483f-afda-8104248ca5da" name="Default Changelist" comment="" />
+    <list default="true" id="c42c1e65-09b8-483f-afda-8104248ca5da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Books/Authors/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Books/Authors/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoordinateSystems/Polygons/MyPolygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoordinateSystems/Polygons/MyPolygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Figures/Circles/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Figures/Circles/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Figures/Rectangles/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Figures/Rectangles/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,31 +22,32 @@
           <entry key="project.closed" value="6" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.63" value="2" />
           <entry key="project.open.time.75" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="37" />
+          <entry key="java" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="37" />
+          <entry key="JAVA" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="16889" />
+          <entry key="java" value="17485" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="16889" />
+          <entry key="JAVA" value="17485" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -50,43 +57,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-646">
-              <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+            <state relative-caret-position="1360">
+              <caret line="89" column="47" lean-forward="true" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CoordinateSystems/Polygons/MyPolygon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="147" column="77" lean-forward="true" selection-start-line="147" selection-start-column="77" selection-end-line="147" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3021#3022#0" expanded="true" />
-                <element signature="e#3058#3059#0" expanded="true" />
-                <element signature="e#7490#7491#0" expanded="true" />
-                <element signature="e#7514#7515#0" expanded="true" />
-                <element signature="e#7551#7552#0" expanded="true" />
-                <element signature="e#7577#7578#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoordinateSystems/Triangles/MyTriangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#7797#7798#0" expanded="true" />
+                <element signature="e#7838#7839#0" expanded="true" />
+                <element signature="e#8777#8778#0" expanded="true" />
+                <element signature="e#8839#8840#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,6 +81,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -125,8 +109,11 @@
         <option value="$PROJECT_DIR$/src/CoordinateSystems/Polygons/Polygon.java" />
         <option value="$PROJECT_DIR$/src/CoordinateSystems/Pentagon/Pentagon.java" />
         <option value="$PROJECT_DIR$/src/CoordinateSystems/Triangles/MyTriangle.java" />
-        <option value="$PROJECT_DIR$/src/Main/Main.java" />
+        <option value="$PROJECT_DIR$/src/Figures/Circles/Circle.java" />
+        <option value="$PROJECT_DIR$/src/Figures/Rectangles/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/Books/Authors/Author.java" />
         <option value="$PROJECT_DIR$/src/CoordinateSystems/Polygons/MyPolygon.java" />
+        <option value="$PROJECT_DIR$/src/Main/Main.java" />
       </list>
     </option>
   </component>
@@ -142,12 +129,15 @@
     <option name="width" value="751" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,19 +156,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="CoordinateSystems" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="1st homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1st homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CoordinateSystems" type="462c0819:PsiDirectoryNode" />
-              <item name="Polygons" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,17 +251,18 @@
       <workItem from="1541142570152" duration="412000" />
       <workItem from="1541167753254" duration="11485000" />
       <workItem from="1541231942567" duration="6383000" />
+      <workItem from="1541260873867" duration="3454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82034000" />
+    <option name="totallyTimeSpent" value="85488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.096066564" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15355521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -290,7 +272,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3267974" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39052287" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43954247" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3480392" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,13 +315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Books/Authors/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Employees/Exceptions/PercentTooLargeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -351,27 +326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Figures/Circles/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Figures/Figures/Integrable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Figures/Rectangles/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -401,30 +355,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoordinateSystems/Triangles/VertexOutOfBoundsException.java">
+    <entry file="file://$PROJECT_DIR$/src/CoordinateSystems/Triangles/VertexOutOfBoundsException.java" />
+    <entry file="file://$PROJECT_DIR$/src/Figures/Figures/Integrable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Figures/Rectangles/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Books/Authors/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoordinateSystems/Triangles/MyTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="323">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -434,16 +389,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoordinateSystems/Polygons/MyPolygon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="147" column="77" lean-forward="true" selection-start-line="147" selection-start-column="77" selection-end-line="147" selection-end-column="77" />
+        <state relative-caret-position="2346">
+          <caret line="138" column="12" selection-start-line="138" selection-start-column="12" selection-end-line="138" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3021#3022#0" expanded="true" />
             <element signature="e#3058#3059#0" expanded="true" />
-            <element signature="e#7490#7491#0" expanded="true" />
-            <element signature="e#7514#7515#0" expanded="true" />
-            <element signature="e#7551#7552#0" expanded="true" />
-            <element signature="e#7577#7578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Figures/Circles/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="89" column="47" lean-forward="true" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7797#7798#0" expanded="true" />
+            <element signature="e#7838#7839#0" expanded="true" />
+            <element signature="e#8777#8778#0" expanded="true" />
+            <element signature="e#8839#8840#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,31 +1,47 @@
 package Main;
 
-/*import java.awt.Color;
+//imports for visualizing
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Polygon;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import javax.swing.JFrame;
-import javax.swing.JPanel;*/
+import javax.swing.JPanel;
 
 /*Задачи на тему: Основные принципы объектно-ориентированного программирования. Java классы и объекты.
  * Реализовать  Java классы в соответствии с UML диаграммами */
 
-import CoordinateSystems.Pentagon.MyPentagon;
+import Figures.Circles.Circle;
+import Figures.Rectangles.Rectangle;
+//----------------------------------------------------------------------------------------------------------------------
+import Employees.Employee;
+import Employees.Exceptions.PercentTooLargeException;
+//----------------------------------------------------------------------------------------------------------------------
+import Books.Book;
+import Books.Authors.Author;
+//----------------------------------------------------------------------------------------------------------------------
 import CoordinateSystems.Points.MyPoint;
+//----------------------------------------------------------------------------------------------------------------------
+import CoordinateSystems.Pentagon.MyPentagon;
+import CoordinateSystems.Polygons.MyPolygon;
 import CoordinateSystems.Triangles.MyTriangle;
+
 
 public class Main {
     public static void main(String[] args) {
-        /*Circles circle = new Circles(3,"green");
+        /*Circle circle = new Circle(3,"green");
         System.out.println(circle);
         System.out.println("The area of circle = " + circle.getArea());
         System.out.println("The perimeter of circle = " + circle.getPerimeter());
         System.out.println();
-        Rectangles rectangle = new Rectangles(5,7);
+        Rectangle rectangle = new Rectangle(5,7);
         System.out.println(rectangle);
         System.out.println("The area of rectangle = " + rectangle.getArea());
         System.out.println("The perimeter of rectangle = " + rectangle.getPerimeter());*/
-
+        //--------------------------------------------------------------------------------------------------------------
         /*Employee employee = new Employee(1488,"Pussy","Destroyer",100000);
         System.out.println(employee);
         System.out.println("Annual salary is " + employee.getAnnualSalary() + "$");
@@ -35,35 +51,47 @@ public class Main {
         }catch (PercentTooLargeException e){
             System.out.println(e.getMessage());
         }*/
-
+        //--------------------------------------------------------------------------------------------------------------
         /*Author[] authors = {new Author("Quentin Tarantino",'m'), new Author("Quentina Taranti", 'f'), new Author("Samuel L. Jackson",'m')};
         Book book = new Book("Pulp fiction",authors,100, 2);
         System.out.println(book.getAuthorNames());
         System.out.println(book);*/
-
-        /*MyPoint myPoint = new MyPoint(4,3);
+        //--------------------------------------------------------------------------------------------------------------
+        /*MyPoint myPoint = new MyPoint(4.0,3.0);
         System.out.println(myPoint);
         System.out.println("Distance from (0, 0) = " + myPoint.distance());
-        System.out.println("Distance from (10, 10) = " + myPoint.distance(10,10));
-        MyPoint anotherPoint = new MyPoint(6, 8);
+        System.out.println("Distance from (10, 10) = " + myPoint.distance(10.0,10.0));
+        MyPoint anotherPoint = new MyPoint(6.0, 8.0);
         System.out.println("Distance from " + anotherPoint + " to " + myPoint + " = " + myPoint.distance(anotherPoint));
-        anotherPoint.setXY(100, 64);
+        anotherPoint.setXY(100.0, 64.0);
         double[] xyOfAnotherPoint = anotherPoint.getXY();
         System.out.println("Now distance from " + anotherPoint + " to " + myPoint + " = " + myPoint.distance(xyOfAnotherPoint[0],xyOfAnotherPoint[1]));*/
-
-        /*MyTriangle myTriangle = new MyTriangle(new MyPoint(0,0), new MyPoint(4,0), new MyPoint(2,3.4641016151377545)); //Equilateral, the same as 2*sqrt(3).
+        //--------------------------------------------------------------------------------------------------------------
+        JRisk myVisualizer;
+        MyTriangle myTriangle;
+        myTriangle = new MyTriangle(new MyPoint(0.0,0.0), new MyPoint(100.0,0.0), new MyPoint(50.0,86.60254037844386)); //Equilateral, the same as 100*sqrt(3)/2.
         System.out.println(myTriangle);
         System.out.println("The perimeter of triangle is " + myTriangle.getPerimeter());
         System.out.println("The triangle is " + myTriangle.getType());
         System.out.println();
-        MyTriangle myTriangle1 = new MyTriangle(new MyPoint(0,0), new MyPoint(4,0), new MyPoint(2,3.464101615137754)); //Isosceles.
-        System.out.println(myTriangle1);
-        System.out.println("The perimeter of triangle is " + myTriangle1.getPerimeter());
-        System.out.println("The triangle is " + myTriangle1.getType());*/
+        //myVisualizer = new JRisk(myTriangle);
 
-        Main main = new Main();
-        main.doTestForPentagon();
+        myTriangle = new MyTriangle(new MyPoint(0.0,0.0), new MyPoint(100.0,0.0), new MyPoint(50.0,86.6025403784438)); //Isosceles.
+        System.out.println(myTriangle);
+        System.out.println("The perimeter of triangle is " + myTriangle.getPerimeter());
+        System.out.println("The triangle is " + myTriangle.getType());
+        System.out.println();
+        //myVisualizer = new JRisk(myTriangle);
 
+        myTriangle = new MyTriangle(new MyPoint(0.0,180.0), new MyPoint(200.0,50.0), new MyPoint(250.0,200.0));
+        System.out.println(myTriangle);
+        System.out.println("The perimeter of triangle is " + myTriangle.getPerimeter());
+        System.out.println("The triangle is " + myTriangle.getType());
+        //myVisualizer = new JRisk(myTriangle);
+        //--------------------------------------------------------------------------------------------------------------
+        /*Main main = new Main();
+        main.doTestForPentagon();*/ //throws a java.util.ConcurrentModificationException exception if the last line in
+                                  //algorithm code is omitted (see MyPolygon.java for details)
     }
 
     /*public void doTestForListIterator(){
@@ -100,30 +128,35 @@ public class Main {
     }*/
 
     public void doTestForPentagon(){
-        //JRisk jRisk;
+        JRisk myVisualizer;
         MyPentagon pentagon;
 
-        /*pentagon = new MyPentagon(new MyPoint(100.0 + Math.random()*200.0, 100.0 + Math.random()*200.0), new MyPoint(150.0 + Math.random()*200.0, 100.0 + Math.random()*200.0), new MyPoint(300.0 + Math.random()*200.0, 150.0 + Math.random()*200.0), new MyPoint(400.0 + Math.random()*200.0, 400.0 + Math.random()*200.0), new MyPoint(100.0 + Math.random()*200.0, 180.0 + Math.random()*200.0));
+        /*//Random pentagon.
+        pentagon = new MyPentagon(new MyPoint(100.0 + Math.random()*200.0, 100.0 + Math.random()*200.0), new MyPoint(150.0 + Math.random()*200.0, 100.0 + Math.random()*200.0), new MyPoint(300.0 + Math.random()*200.0, 150.0 + Math.random()*200.0), new MyPoint(400.0 + Math.random()*200.0, 400.0 + Math.random()*200.0), new MyPoint(100.0 + Math.random()*200.0, 180.0 + Math.random()*200.0));
         System.out.println(pentagon);
         System.out.println(pentagon.getType());
         System.out.println();
+        //myVisualizer = new JRisk(pentagon);
 
         pentagon = new MyPentagon(new MyPoint(0.0, 0.0), new MyPoint(5.0, 0.0), new MyPoint(7.0, 2.0), new MyPoint(5.0, 5.0), new MyPoint(0.0, 5.0));
         System.out.println(pentagon);
-        System.out.println(pentagon.getType()); //Three-equal
+        System.out.println(pentagon.getType()); //Three-equal.
         System.out.println();
+        //myVisualizer = new JRisk(pentagon); //Not actually good visible.
 
         pentagon = new MyPentagon(new MyPoint(0.0, 0.0), new MyPoint(200.0, 0.0), new MyPoint(280.0, 100.0), new MyPoint(200.0, 200.0), new MyPoint(0.0, 200.0));
         System.out.println(pentagon);
-        System.out.println(pentagon.getType()); //Tree-equal and two-equal
-        System.out.println();*/
+        System.out.println(pentagon.getType()); //Tree-equal and two-equal.
+        System.out.println();
+        //myVisualizer = new JRisk(pentagon);*/
 
         double someAngle = 2.0*Math.PI/5.0; //PI - 3PI/5
         //Equilateral pentagon with the length of edge of 100
         pentagon = new MyPentagon(new MyPoint(200.0, 200.0), new MyPoint(300.0, 200.0), new MyPoint(300.0 + 100.0*Math.cos(someAngle), 200.0 + 100.0*Math.sin(someAngle)), new MyPoint(250.0, 200.0 + 100.0*(Math.cos(3.0*Math.PI/10.0) + Math.sin(someAngle))), new MyPoint(200.0 - 100.0*Math.cos(someAngle), 200.0 + 100.0*Math.sin(someAngle)));
         System.out.println(pentagon);
         System.out.println(pentagon.getType()); //Tree-equal and two-equal but should be equilateral. I assume it's because cos and sin methods are not quiet accurate.
-                                                //It can be seen at debug mode. The edges array will contain something like this {100.0, 100.00000000000001, 100.0, 100.0, 100.00000000000001}
+                                                //It can be seen at debug mode. The edges array will contain something like this {100.0, 100.00000000000001, 100.0, 100.0, 100.00000000000001}.
+        //myVisualizer = new JRisk(pentagon);
     }
 }
 
@@ -141,7 +174,6 @@ public class Main {
 * You won’t get any real work done—you’ll just be writing code that you never use.*/
 
 //some swing stuff to visualize what is going on
-/*
 class JRisk {
 
     private JFrame mainMap;
@@ -193,4 +225,4 @@ class JRisk {
         }
         return ret;
     }
-}*/
+}

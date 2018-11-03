@@ -37,7 +37,7 @@ public class Rectangle implements Integrable {
 
     @Override
     public String toString() {
-        return "Figures.Figures.Figures.Rectangles{" +
+        return "Rectangles{" +
                 "length=" + length +
                 ", width=" + width +
                 '}';

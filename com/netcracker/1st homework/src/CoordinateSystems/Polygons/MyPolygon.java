@@ -124,7 +124,7 @@ public class MyPolygon {
         int countOfEqualEdges;
         while (iteratorOfEdges.hasNext()){
             countOfEqualEdges = 1; //by default one edge is equal to itself.
-            double currentEdge = iteratorOfEdges.next(); //here we have exception when the last line of code is omitted.
+            double currentEdge = iteratorOfEdges.next(); //(*)here we have exception when the last line of code is omitted.
             int nextIndexOfCurrentEdge = iteratorOfEdges.nextIndex();
 
             ListIterator<Double> iteratorOfEdgesThatAreLeft = listOfEdges.listIterator(nextIndexOfCurrentEdge);
@@ -140,10 +140,10 @@ public class MyPolygon {
 
             //(*)
             /*I don't understand why, but without this line the method sometimes trows a
-             * java.util.ConcurrentModificationException. This line has to be unnecessary, because iterator is already
-             * going to start with the next index. It looks like the purpose of this line is to somewhat "refresh" the
-             * iteratorOfEdges. The difference between algorithm with the line and without it is that with the line
-             * it's removing the "history" of iteration of our iteratorOfEdges. The lastReturned value becomes null.
+             * java.util.ConcurrentModificationException with pentagon. This line has to be unnecessary, because iterator
+             * is already going to start with the next index. It looks like the purpose of this line is to somewhat
+             * "refresh" the iteratorOfEdges. The difference between algorithm with the line and without it is that with
+             * the line it's removing the "history" of iteration of our iteratorOfEdges. The lastReturned value becomes null.
              * And I really don't get it why this is so important for iterator to forget what he was iterating.
              * It doesn't have to influence on getting next nodes, does it?*/
         }
