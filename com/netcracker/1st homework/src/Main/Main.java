@@ -69,7 +69,7 @@ public class Main {
         //--------------------------------------------------------------------------------------------------------------
         JRisk myVisualizer;
         MyTriangle myTriangle;
-        myTriangle = new MyTriangle(new MyPoint(0.0,0.0), new MyPoint(100.0,0.0), new MyPoint(50.0,86.60254037844386)); //Equilateral, the same as 100*sqrt(3)/2.
+        /*myTriangle = new MyTriangle(new MyPoint(0.0,0.0), new MyPoint(100.0,0.0), new MyPoint(50.0,86.60254037844386)); //Equilateral, the same as 100*sqrt(3)/2.
         System.out.println(myTriangle);
         System.out.println("The perimeter of triangle is " + myTriangle.getPerimeter());
         System.out.println("The triangle is " + myTriangle.getType());
@@ -87,7 +87,15 @@ public class Main {
         System.out.println(myTriangle);
         System.out.println("The perimeter of triangle is " + myTriangle.getPerimeter());
         System.out.println("The triangle is " + myTriangle.getType());
+        System.out.println();
+        //myVisualizer = new JRisk(myTriangle);*/
+
+        //here we have a thrown exception
+        myTriangle = new MyTriangle(new MyPoint(0.0,0.0), new MyPoint(170.0,0.0), new MyPoint(0.0,170.0));
+        System.out.println(myTriangle);
+        System.out.println("The perimeter of triangle is " + myTriangle.getPerimeter());
         //myVisualizer = new JRisk(myTriangle);
+        System.out.println("The triangle is " + myTriangle.getType());
         //--------------------------------------------------------------------------------------------------------------
         /*Main main = new Main();
         main.doTestForPentagon();*/ //throws a java.util.ConcurrentModificationException exception if the last line in
