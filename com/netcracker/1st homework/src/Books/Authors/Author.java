@@ -1,5 +1,7 @@
 package Books.Authors;
 
+import java.util.Objects;
+
 public class Author {
     private String name;
     private String email;
@@ -43,4 +45,26 @@ public class Author {
                 ", gender=" + gender +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object otherObj) {
+        if (this == otherObj) return true;
+        if (otherObj == null) return false;
+        if (!(otherObj.getClass() == getClass())) return false;
+
+        Author otherAuthor = (Author)otherObj;
+        return Objects.equals(name,  otherAuthor.getName())&&
+                Objects.equals(email, otherAuthor.getEmail())&&
+                (gender == otherAuthor.getGender());
+    }
+
+    @Override
+    public int hashCode() {
+        int result = 17;
+        result = 31*result + name.hashCode();
+        result = 31*result + (email == null ? 0 : email.hashCode());
+        result = 31*result + gender;
+        return  result;
+    }
 }
+

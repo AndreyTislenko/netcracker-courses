@@ -14,6 +14,8 @@ import javax.swing.JPanel;
 /*Задачи на тему: Основные принципы объектно-ориентированного программирования. Java классы и объекты.
  * Реализовать  Java классы в соответствии с UML диаграммами */
 
+import Books.Authors.Graphomans.Graphoman;
+import Employees.Managers.Manager;
 import Figures.Circles.Circle;
 import Figures.Rectangles.Rectangle;
 //----------------------------------------------------------------------------------------------------------------------
@@ -56,6 +58,15 @@ public class Main {
         Book book = new Book("Pulp fiction",authors,100, 2);
         System.out.println(book.getAuthorNames());
         System.out.println(book);*/
+
+        /*//checking instanceof and getClass
+        Graphoman a1 = new Graphoman("Stephan","@mail.ru",'m');
+        Author a2 = new Author("Stephan","@mail.ru",'m');
+        boolean result = a1.equals(a2); // true if instanceof and false if getClass. Wow nice.
+        System.out.println(result);
+        result = a2.equals(a1); //the same here
+        System.out.println(result);
+        //conclusion: I prefer more strict equals so let it be getClass*/
         //--------------------------------------------------------------------------------------------------------------
         /*MyPoint myPoint = new MyPoint(4.0,3.0);
         System.out.println(myPoint);
@@ -90,8 +101,8 @@ public class Main {
         System.out.println();
         //myVisualizer = new JRisk(myTriangle);*/
 
-        //here we have a thrown exception
-        myTriangle = new MyTriangle(new MyPoint(0.0,0.0), new MyPoint(170.0,0.0), new MyPoint(0.0,170.0));
+        //here we have a thrown exception if we omit the last line of code in getType method
+        myTriangle = new MyTriangle(new MyPoint(100.0,100.0), new MyPoint(270.0,100.0), new MyPoint(100.0,270.0));
         System.out.println(myTriangle);
         System.out.println("The perimeter of triangle is " + myTriangle.getPerimeter());
         //myVisualizer = new JRisk(myTriangle);
@@ -140,19 +151,34 @@ public class Main {
         MyPentagon pentagon;
 
         /*//Random pentagon.
-        pentagon = new MyPentagon(new MyPoint(100.0 + Math.random()*200.0, 100.0 + Math.random()*200.0), new MyPoint(150.0 + Math.random()*200.0, 100.0 + Math.random()*200.0), new MyPoint(300.0 + Math.random()*200.0, 150.0 + Math.random()*200.0), new MyPoint(400.0 + Math.random()*200.0, 400.0 + Math.random()*200.0), new MyPoint(100.0 + Math.random()*200.0, 180.0 + Math.random()*200.0));
+        pentagon = new MyPentagon(new MyPoint(100.0 + Math.random()*200.0, 100.0 + Math.random()*200.0),
+                new MyPoint(150.0 + Math.random()*200.0, 100.0 + Math.random()*200.0),
+                new MyPoint(300.0 + Math.random()*200.0, 150.0 + Math.random()*200.0),
+                new MyPoint(400.0 + Math.random()*200.0, 400.0 + Math.random()*200.0),
+                new MyPoint(100.0 + Math.random()*200.0, 180.0 + Math.random()*200.0)
+        );
         System.out.println(pentagon);
         System.out.println(pentagon.getType());
         System.out.println();
         //myVisualizer = new JRisk(pentagon);
 
-        pentagon = new MyPentagon(new MyPoint(0.0, 0.0), new MyPoint(5.0, 0.0), new MyPoint(7.0, 2.0), new MyPoint(5.0, 5.0), new MyPoint(0.0, 5.0));
+        pentagon = new MyPentagon(new MyPoint(0.0, 0.0),
+                new MyPoint(5.0, 0.0),
+                new MyPoint(7.0, 2.0),
+                new MyPoint(5.0, 5.0),
+                new MyPoint(0.0, 5.0)
+        );
         System.out.println(pentagon);
         System.out.println(pentagon.getType()); //Three-equal.
         System.out.println();
         //myVisualizer = new JRisk(pentagon); //Not actually good visible.
 
-        pentagon = new MyPentagon(new MyPoint(0.0, 0.0), new MyPoint(200.0, 0.0), new MyPoint(280.0, 100.0), new MyPoint(200.0, 200.0), new MyPoint(0.0, 200.0));
+        pentagon = new MyPentagon(new MyPoint(0.0, 0.0),
+                new MyPoint(200.0, 0.0),
+                new MyPoint(280.0, 100.0),
+                new MyPoint(200.0, 200.0),
+                new MyPoint(0.0, 200.0)
+        );
         System.out.println(pentagon);
         System.out.println(pentagon.getType()); //Tree-equal and two-equal.
         System.out.println();
@@ -160,7 +186,13 @@ public class Main {
 
         double someAngle = 2.0*Math.PI/5.0; //PI - 3PI/5
         //Equilateral pentagon with the length of edge of 100
-        pentagon = new MyPentagon(new MyPoint(200.0, 200.0), new MyPoint(300.0, 200.0), new MyPoint(300.0 + 100.0*Math.cos(someAngle), 200.0 + 100.0*Math.sin(someAngle)), new MyPoint(250.0, 200.0 + 100.0*(Math.cos(3.0*Math.PI/10.0) + Math.sin(someAngle))), new MyPoint(200.0 - 100.0*Math.cos(someAngle), 200.0 + 100.0*Math.sin(someAngle)));
+        pentagon = new MyPentagon(
+                new MyPoint(200.0, 200.0),
+                new MyPoint(300.0, 200.0),
+                new MyPoint(300.0 + 100.0*Math.cos(someAngle), 200.0 + 100.0*Math.sin(someAngle)),
+                new MyPoint(250.0, 200.0 + 100.0*(Math.cos(3.0*Math.PI/10.0) + Math.sin(someAngle))),
+                new MyPoint(200.0 - 100.0*Math.cos(someAngle), 200.0 + 100.0*Math.sin(someAngle))
+        );
         System.out.println(pentagon);
         System.out.println(pentagon.getType()); //Tree-equal and two-equal but should be equilateral. I assume it's because cos and sin methods are not quiet accurate.
                                                 //It can be seen at debug mode. The edges array will contain something like this {100.0, 100.00000000000001, 100.0, 100.0, 100.00000000000001}.

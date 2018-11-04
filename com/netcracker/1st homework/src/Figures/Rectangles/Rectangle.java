@@ -2,6 +2,8 @@ package Figures.Rectangles;
 
 import Figures.Figures.Integrable;
 
+import java.util.Objects;
+
 public class Rectangle implements Integrable {
     private float length = 1.0f;
     private float width = 1.0f;
@@ -41,5 +43,24 @@ public class Rectangle implements Integrable {
                 "length=" + length +
                 ", width=" + width +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object otherObj) {
+        if (this == otherObj) return true;
+        if (otherObj == null) return false;
+        if (otherObj.getClass() != getClass()) return false;
+
+        Rectangle otherRectangle = (Rectangle)otherObj;
+        return (length == otherRectangle.getLength())&&
+                (width == otherRectangle.getWidth());
+    }
+
+    @Override
+    public int hashCode() {
+        int result = 17;
+        result = 31*result + Float.floatToIntBits(length);
+        result = 31*result + Float.floatToIntBits(width);
+        return result;
     }
 }

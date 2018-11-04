@@ -55,19 +55,16 @@ public class MyPolygon {
         }
     }
 
+    public double[] getEdges(){
+        return edges;
+    }
+
     public static HashMap<HashSet<Integer>, String> getQualifications() {
         return qualifications;
     }
 
     public static void setQualifications(HashMap<HashSet<Integer>, String> qualifications) {
         MyPolygon.qualifications = qualifications;
-    }
-
-    @Override
-    public String toString() {
-        return "Polygon{" +
-                "v=" + Arrays.toString(v) +
-                '}';
     }
 
     public double getPerimeter(){
@@ -167,5 +164,33 @@ public class MyPolygon {
 
     public void setV(MyPoint[] v) {
         this.v = v;
+    }
+
+    @Override
+    public String toString() {
+        return "Polygon{" +
+                "v=" + Arrays.toString(v) +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object otherObj){
+        //I took into account only edges, because I think points don't really matter.
+        if (this == otherObj) return true;
+        if (otherObj == null) return false;
+        if (otherObj.getClass() != getClass()) return false;
+
+        MyPolygon otherPolygon = (MyPolygon)otherObj;
+        return Arrays.equals(edges, otherPolygon.getEdges());
+    }
+
+    @Override
+    public int hashCode(){
+        /*because I used only edges for equals, I have to use only them to calculate hashCode.
+        * If I use points also it will cause the breach of agreement that if equals return true,
+        * hashCodes have to be the same.*/
+        int result = 17;
+        result = 31*result + Arrays.hashCode(edges);
+        return result;
     }
 }

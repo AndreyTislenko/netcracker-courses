@@ -2,6 +2,8 @@ package Figures.Circles;
 
 import Figures.Figures.Integrable;
 
+import java.util.Objects;
+
 public class Circle implements Integrable {
     private double radius = 1.0;
     private String color = "red";
@@ -50,5 +52,25 @@ public class Circle implements Integrable {
                 "radius=" + radius +
                 ", color='" + color + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object otherObj) {
+        if (this == otherObj) return true;
+        if (otherObj == null) return false;
+        if (otherObj.getClass() != getClass()) return false;
+
+        Circle otherCircle = (Circle)otherObj;
+        return (radius == otherCircle.getRadius())&&
+                Objects.equals(color, otherCircle.getColor());
+    }
+
+    @Override
+    public int hashCode() {
+        int result = 17;
+        long radius = Double.doubleToLongBits(this.radius);
+        result = 31*result + (int)(radius^(radius>>>32));
+        result = 31*result + color.hashCode();
+        return result;
     }
 }

@@ -7,6 +7,7 @@ import java.util.*;
 
 public class MyTriangle extends MyPolygon {
     //All required methods (getType, getPerimeter) and instance variables are in superclass.
+    //Also equals and hashCode are overridden in MyPolygon.
 
     public MyTriangle(MyPoint v1, MyPoint v2, MyPoint v3) {
         super(v1, v2, v3);

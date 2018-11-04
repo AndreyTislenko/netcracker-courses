@@ -2,11 +2,13 @@ package Employees;
 
 import Employees.Exceptions.PercentTooLargeException;
 
+import java.util.Objects;
+
 public class Employee {
     private int id;
     private String firstName;
     private String lastName;
-    private int salary;
+    protected int salary;
 
     public Employee(int id, String firstName, String lastName, int salary) {
         this.id = id;
@@ -53,6 +55,29 @@ public class Employee {
                 ", lastName='" + lastName + '\'' +
                 ", salary=" + salary +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object otherObj){
+        if (this == otherObj) return true;
+        if (otherObj == null) return false;
+        if (otherObj.getClass() != getClass()) return false;
+
+        Employee otherEmployee = (Employee)otherObj;
+        return (id == otherEmployee.getId())&&
+                Objects.equals(firstName, otherEmployee.getFirstName())&&
+                Objects.equals(lastName, otherEmployee.getLastName())&&
+                (salary == otherEmployee.getSalary());
+    }
+
+    @Override
+    public int hashCode() {
+        int result = 17;
+        result = 31*result + id;
+        result = 31*result + firstName.hashCode();
+        result = 31*result + lastName.hashCode();
+        result = 31*result + salary;
+        return  result;
     }
 }
 
