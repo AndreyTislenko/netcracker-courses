@@ -2,17 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c42c1e65-09b8-483f-afda-8104248ca5da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1st homework/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1st homework/Main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Books/Authors/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Books/Authors/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Books/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CoordinateSystems/Points/MyPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoordinateSystems/Points/MyPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CoordinateSystems/Polygons/MyPolygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoordinateSystems/Polygons/MyPolygon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CoordinateSystems/Triangles/MyTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoordinateSystems/Triangles/MyTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employees/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employees/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Figures/Circles/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Figures/Circles/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Figures/Rectangles/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Figures/Rectangles/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/1st homework part 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Books/Authors/Author.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Books/Authors/Graphomans/Graphoman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Books/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/CoordinateSystems/Pentagon/MyPentagon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/CoordinateSystems/Points/MyPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/CoordinateSystems/Polygons/MyPolygon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/CoordinateSystems/Triangles/MyTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Employees/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Employees/Exceptions/PercentTooLargeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Employees/Managers/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Figures/Circles/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Figures/Figures/Integrable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Figures/Rectangles/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Main/JRisk$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Main/JRisk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/src/Books/Authors/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/src/Books/Authors/Graphomans/Graphoman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/src/Books/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/src/CoordinateSystems/Pentagon/MyPentagon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/src/CoordinateSystems/Points/MyPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/src/CoordinateSystems/Polygons/MyPolygon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/src/CoordinateSystems/Triangles/MyTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/src/Employees/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/src/Employees/Exceptions/PercentTooLargeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/src/Employees/Managers/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/src/Figures/Circles/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/src/Figures/Figures/Integrable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/src/Figures/Rectangles/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1st homework/src/Main/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,15 +50,16 @@
     <session id="-1034892639">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.63" value="2" />
           <entry key="project.open.time.75" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -49,17 +75,46 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="21874" />
+          <entry key="java" value="21878" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21874" />
+          <entry key="JAVA" value="21878" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+    <session id="23131996">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
@@ -67,26 +122,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="107" column="106" lean-forward="true" selection-start-line="107" selection-start-column="106" selection-end-line="107" selection-end-column="106" />
+            <state relative-caret-position="135">
+              <caret line="108" column="70" lean-forward="true" selection-start-line="108" selection-start-column="70" selection-end-line="108" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoordinateSystems/Polygons/MyPolygon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="190" column="42" selection-start-line="190" selection-start-column="42" selection-end-line="190" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2983#2984#0" expanded="true" />
-                <element signature="e#3010#3011#0" expanded="true" />
-                <element signature="e#3021#3022#0" expanded="true" />
-                <element signature="e#3058#3059#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,8 +190,6 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -163,49 +200,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="1st homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1st homework" type="462c0819:PsiDirectoryNode" />
+              <item name="1st homework part 1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1st homework part 1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="1st homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1st homework" type="462c0819:PsiDirectoryNode" />
+              <item name="1st homework part 1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1st homework part 1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="1st homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1st homework" type="462c0819:PsiDirectoryNode" />
+              <item name="1st homework part 1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1st homework part 1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="CoordinateSystems" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="1st homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1st homework" type="462c0819:PsiDirectoryNode" />
+              <item name="1st homework part 1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1st homework part 1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1st homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1st homework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="CoordinateSystems" type="462c0819:PsiDirectoryNode" />
+              <item name="Polygons" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541353775889" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541426892481" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -227,7 +259,7 @@
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.Main" />
-      <module name="1st homework" />
+      <module name="1st homework part 1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Main.*" />
@@ -240,7 +272,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Figures.Figure.Main.Main" />
-      <module name="1st homework" />
+      <module name="1st homework part 1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Figures.Figure.Main.*" />
@@ -292,18 +324,21 @@
       <workItem from="1541167753254" duration="11485000" />
       <workItem from="1541231942567" duration="6383000" />
       <workItem from="1541260873867" duration="9215000" />
-      <workItem from="1541321210836" duration="17267000" />
+      <workItem from="1541321210836" duration="17959000" />
+      <workItem from="1541426825034" duration="147000" />
+      <workItem from="1541427052337" duration="103000" />
+      <workItem from="1541429209087" duration="261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108516000" />
+    <option name="totallyTimeSpent" value="109719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21104388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -313,7 +348,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3267974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28104576" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28104576" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.51797384" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,9 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -388,10 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -406,9 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -416,9 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -433,9 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -443,12 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
           <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
-          <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -464,22 +477,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CoordinateSystems/Polygons/MyPolygon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="190" column="42" selection-start-line="190" selection-start-column="42" selection-end-line="190" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2983#2984#0" expanded="true" />
-            <element signature="e#3010#3011#0" expanded="true" />
-            <element signature="e#3021#3022#0" expanded="true" />
-            <element signature="e#3058#3059#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="296">
+          <caret line="183" column="61" lean-forward="true" selection-start-line="183" selection-start-column="61" selection-end-line="183" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="107" column="106" lean-forward="true" selection-start-line="107" selection-start-column="106" selection-end-line="107" selection-end-column="106" />
+        <state relative-caret-position="135">
+          <caret line="108" column="70" lean-forward="true" selection-start-line="108" selection-start-column="70" selection-end-line="108" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
