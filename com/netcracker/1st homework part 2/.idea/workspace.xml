@@ -1,51 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb61127-5973-400b-a3f1-7328d3fa4886" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/Main/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1st homework part 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComplexNumbers/MyComplex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/1st homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/1st homework part 1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Books/Authors/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/Books/Authors/Author.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Books/Authors/Graphomans/Graphoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/Books/Authors/Graphomans/Graphoman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Books/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/Books/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/CoordinateSystems/Pentagon/MyPentagon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/CoordinateSystems/Pentagon/MyPentagon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/CoordinateSystems/Points/MyPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/CoordinateSystems/Points/MyPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/CoordinateSystems/Polygons/MyPolygon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/CoordinateSystems/Polygons/MyPolygon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/CoordinateSystems/Triangles/MyTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/CoordinateSystems/Triangles/MyTriangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Employees/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/Employees/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Employees/Exceptions/PercentTooLargeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/Employees/Exceptions/PercentTooLargeException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Employees/Managers/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/Employees/Managers/Manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Figures/Circles/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/Figures/Circles/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Figures/Figures/Integrable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/Figures/Figures/Integrable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Figures/Rectangles/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/Figures/Rectangles/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Main/JRisk$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/Main/JRisk$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Main/JRisk.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/out/production/1st homework part 1/Main/JRisk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/out/production/1st homework/Main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/src/Books/Authors/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/src/Books/Authors/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/src/Books/Authors/Graphomans/Graphoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/src/Books/Authors/Graphomans/Graphoman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/src/Books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/src/Books/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/src/CoordinateSystems/Pentagon/MyPentagon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/src/CoordinateSystems/Pentagon/MyPentagon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/src/CoordinateSystems/Points/MyPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/src/CoordinateSystems/Points/MyPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/src/CoordinateSystems/Polygons/MyPolygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/src/CoordinateSystems/Polygons/MyPolygon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/src/CoordinateSystems/Triangles/MyTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/src/CoordinateSystems/Triangles/MyTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/src/Employees/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/src/Employees/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/src/Employees/Exceptions/PercentTooLargeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/src/Employees/Exceptions/PercentTooLargeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/src/Employees/Managers/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/src/Employees/Managers/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/src/Figures/Circles/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/src/Figures/Circles/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/src/Figures/Figures/Integrable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/src/Figures/Figures/Integrable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/src/Figures/Rectangles/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/src/Figures/Rectangles/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1st homework/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1st homework part 1/src/Main/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="adb61127-5973-400b-a3f1-7328d3fa4886" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +13,7 @@
     <session id="-173381508">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.59" value="1" />
@@ -98,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="48" column="78" lean-forward="true" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="78" />
+            <state relative-caret-position="408">
+              <caret line="48" column="78" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,7 +104,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="728" />
@@ -267,12 +223,12 @@
       <workItem from="1541531002839" duration="9000" />
       <workItem from="1541842197963" duration="11700000" />
       <workItem from="1541925822125" duration="25203000" />
-      <workItem from="1542009851464" duration="6605000" />
+      <workItem from="1542009851464" duration="7307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61864000" />
+    <option name="totallyTimeSpent" value="62566000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -284,8 +240,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22844176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -297,7 +252,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3382353" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3382353" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -404,8 +359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="48" column="78" lean-forward="true" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="78" />
+        <state relative-caret-position="408">
+          <caret line="48" column="78" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
