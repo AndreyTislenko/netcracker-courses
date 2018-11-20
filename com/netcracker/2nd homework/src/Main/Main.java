@@ -1,42 +1,51 @@
 package Main;
 
-import ArraysSorts.ArraysSorts;
-
-import java.util.Arrays;
+import BallsAndContainers.MyBalls.Ball;
+import BallsAndContainers.MyContainers.Container;
+import BallsAndContainers.SwingAnimation.Animation;
+import ComplexNumbers.MyComplex;
+import Polynomials.MyPolynomial;
 
 public class Main {
     public static void main(String[] args) {
-//1)
-        /*int[] randomIntArray = new int[10000];
-        for (int i = 0; i < randomIntArray.length; i++){
-            randomIntArray[i] = (int)(Math.random()*randomIntArray.length);
-        }
-        System.out.println("Our array is " + Arrays.toString(randomIntArray));
-        ArraysSorts[] array = new ArraysSorts[]{new ArraysSorts(randomIntArray.clone()), new ArraysSorts(randomIntArray.clone()), new ArraysSorts(randomIntArray.clone())};
+        /*MyComplex complex = new MyComplex(1.0, -2.0);
+        System.out.println("Let z = " + complex);
 
+        MyComplex anotherComplex = new MyComplex(2.0, 7.0);
+
+        System.out.println("(" + complex + ") + (" + anotherComplex + ") = " + complex.addNew(anotherComplex));
+        System.out.println("The z is " + complex);
+        System.out.println("(" + complex + ") - (" + anotherComplex + ") = " + complex.subtractNew(anotherComplex));
+        System.out.println("The z is " + complex);
         System.out.println();
 
-        long timeOfSort = System.nanoTime();
-        array[0].bubbleSort();
-        timeOfSort = System.nanoTime() - timeOfSort;
-        System.out.println("The time of bubble sort: " + timeOfSort/1000000.0 + "ms");
-        //System.out.println(Arrays.toString(array[0].getIntArray()));
-
+        System.out.print("(" + complex + ") - (");System.out.println(anotherComplex + ") = " + complex.subtract(anotherComplex));
+        System.out.println("The z now is " + complex);
+        System.out.print("(" + complex + ") + (");System.out.println(anotherComplex + ") = " + complex.add(anotherComplex));
+        System.out.println("The z now is " + complex);
         System.out.println();
 
-        timeOfSort = System.nanoTime();
-        array[1].selectionSort();
-        timeOfSort = System.nanoTime() - timeOfSort;
-        System.out.println("The time of selection sort: " + timeOfSort/1000000.0 + "ms");
-        //System.out.println(Arrays.toString(array[1].getIntArray()));
+        System.out.print("(" + complex + ")*(");System.out.println(anotherComplex + ") = " + complex.multiply(anotherComplex));
+        System.out.println("The z now is " + complex);
+        System.out.print("(" + complex + ")/(");System.out.println(anotherComplex + ") = " + complex.divide(anotherComplex));
+        System.out.println("The z now is " + complex);*/
+        //--------------------------------------------------------------------------------------------------------------
+        /*MyPolynomial myPolynomial = new MyPolynomial(-1.0, 0.0, 1.0);
 
-        System.out.println();
+        System.out.println("1) P(x) = " + myPolynomial);
+        System.out.println("   P(x) == some another polynomial => " + myPolynomial.equals(new MyPolynomial(-1.0, 0.0, 1.0)));
+        double x = 1.0;
+        System.out.println("   P(" + x + ") = " + myPolynomial.evaluate(x));
 
-        timeOfSort = System.nanoTime();
-        array[2].arraysSort();
-        timeOfSort = System.nanoTime() - timeOfSort;
-        System.out.println("The time of Arrays.sort: " + timeOfSort/1000000.0 + "ms");
-        //System.out.println(Arrays.toString(array[2].getIntArray()));*/
-//----------------------------------------------------------------------------------------------------------------------
+        MyPolynomial myPolynomial1 = new MyPolynomial(1.0, 0.0, 1.0);
+
+        System.out.println("2) Q(x) = " + myPolynomial1);
+        System.out.println("   (" + myPolynomial + ") + (" + myPolynomial1 + ")" + " = " + myPolynomial.add(myPolynomial1));
+        System.out.println("   (" + myPolynomial + ")*(" + myPolynomial1 + ")" + " = " + myPolynomial.multiply(myPolynomial1));*/
+        //--------------------------------------------------------------------------------------------------------------
+        Container container = new Container(100,100,300,200); //Default values for container.
+        Ball ball = new Ball(500,120,20,30, 180); //Default values for ball.
+        Animation animation = new Animation(container, ball); //The swing stuff.
+        //System.out.println(container.contains(new Ball(180,280,20,30,-90)));
     }
 }

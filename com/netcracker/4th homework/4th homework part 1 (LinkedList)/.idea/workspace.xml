@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6bf09e29-ae0f-4b6d-a8e4-4cc53828ea02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/1st homework.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/Books/Authors/Author.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/Books/Authors/Graphomans/Graphoman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/Books/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/CoordinateSystems/Pentagon/MyPentagon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/CoordinateSystems/Points/MyPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/CoordinateSystems/Polygons/MyPolygon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/CoordinateSystems/Triangles/MyTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/Employees/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/Employees/Exceptions/PercentTooLargeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/Employees/Managers/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/Figures/Circles/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/Figures/Figures/Integrable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/Figures/Rectangles/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/Main/JRisk$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/Main/JRisk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/out/production/1st homework part 1/Main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/src/Books/Authors/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/src/Books/Authors/Graphomans/Graphoman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/src/Books/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/src/CoordinateSystems/Pentagon/MyPentagon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/src/CoordinateSystems/Points/MyPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/src/CoordinateSystems/Polygons/MyPolygon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/src/CoordinateSystems/Triangles/MyTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/src/Employees/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/src/Employees/Exceptions/PercentTooLargeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/src/Employees/Managers/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/src/Figures/Circles/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/src/Figures/Figures/Integrable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/src/Figures/Rectangles/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 1/src/Main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/2nd homework.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/out/production/1st homework part 2/BallsAndContainers/MyBalls/Ball.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/out/production/1st homework part 2/BallsAndContainers/MyContainers/Container.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/out/production/1st homework part 2/BallsAndContainers/SwingAnimation/Animation$ContainerAndBallAnimation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/out/production/1st homework part 2/BallsAndContainers/SwingAnimation/Animation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/out/production/1st homework part 2/ComplexNumbers/MyComplex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/out/production/1st homework part 2/ListPolynomials/ListPolynomial$Monomial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/out/production/1st homework part 2/ListPolynomials/ListPolynomial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/out/production/1st homework part 2/Main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/out/production/1st homework part 2/Polynomials/MyPolynomial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/src/BallsAndContainers/MyBalls/Ball.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/src/BallsAndContainers/MyContainers/Container.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/src/BallsAndContainers/SwingAnimation/Animation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/src/ComplexNumbers/MyComplex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/src/ListPolynomials/ListPolynomial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/src/Main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st homework part 2/src/Polynomials/MyPolynomial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2nd homework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd homework/3rd homework.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd homework/out/production/2nd homework/ArraysSorts/ArraysSorts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd homework/out/production/2nd homework/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../2nd homework/out/production/2nd homework/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd homework/src/ArraysSorts/ArraysSorts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd homework/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2nd homework/src/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/4th homework part 1 (LinkedList).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/out/production/3rd homework part 1/linkedListInterface/ILinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/out/production/3rd homework part 1/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/out/production/3rd homework part 1/myLinkedList/MyLinkedList$ILinkedListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/out/production/3rd homework part 1/myLinkedList/MyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/out/production/3rd homework part 1/myLinkedList/MyLinkedList$emptyMyLinkedListException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/out/production/3rd homework part 1/myLinkedList/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/out/production/3rd homework part 1/testClasses/coordinateSystems/pentagon/MyPentagon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/out/production/3rd homework part 1/testClasses/coordinateSystems/points/MyPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/out/production/3rd homework part 1/testClasses/coordinateSystems/polygons/MyPolygon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/out/production/3rd homework part 1/testClasses/coordinateSystems/triangles/MyTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/src/linkedListInterface/ILinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/src/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/src/myLinkedList/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/src/testClasses/coordinateSystems/pentagon/MyPentagon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/src/testClasses/coordinateSystems/points/MyPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/src/testClasses/coordinateSystems/polygons/MyPolygon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 1/src/testClasses/coordinateSystems/triangles/MyTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/4th homework part 2 (Collections testing).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/out/production/3rd homework part 2/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/out/production/3rd homework part 2/tests/testCollections/TestCollections$OperationOnCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/out/production/3rd homework part 2/tests/testCollections/TestCollections.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/out/production/3rd homework part 2/tests/testLists/TestLists$OperationOnList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/out/production/3rd homework part 2/tests/testLists/TestLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/out/production/3rd homework part 2/tests/testMaps/TestMaps$OperationOnMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/out/production/3rd homework part 2/tests/testMaps/TestMaps$OperationOnMapOnlyWithKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/out/production/3rd homework part 2/tests/testMaps/TestMaps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/out/production/3rd homework part 2/tests/testSets/TestSets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/src/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/src/tests/testCollections/TestCollections.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/src/tests/testLists/TestLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/src/tests/testMaps/TestMaps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3rd homework part 2/src/tests/testSets/TestSets.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1588492444">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="10375" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="10375" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+    <session id="-1619589363">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9537">
+              <caret line="600" column="24" selection-start-line="600" selection-start-column="24" selection-end-line="600" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/myLinkedList/MyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1190">
+              <caret line="82" column="35" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#2016#2017#0" expanded="true" />
+                <element signature="e#2059#2060#0" expanded="true" />
+                <element signature="e#3256#3257#0" expanded="true" />
+                <element signature="e#3283#3284#0" expanded="true" />
+                <element signature="e#3932#3933#0" expanded="true" />
+                <element signature="e#3980#3981#0" expanded="true" />
+                <element signature="e#4605#4606#0" expanded="true" />
+                <element signature="e#4652#4653#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>class Node</find>
+      <find>add(</find>
+      <find>checkPositionIndex(</find>
+      <find>add(int</find>
+      <find>node(int</find>
+      <find>clear</find>
+      <find>get</find>
+      <find>addLast</find>
+      <find>remove(int</find>
+      <find>unlink(</find>
+      <find>set</find>
+      <find>set(int</find>
+      <find>toArray(</find>
+      <find>toArray()</find>
+      <find>toArray</find>
+      <find>Iterator</find>
+      <find>linkLast</find>
+      <find>remove(</find>
+      <find>node(</find>
+      <find>indexOf</find>
+      <find>Node&lt;E&gt;</find>
+      <find>indexOf(</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/linkedListInterface/ILinkedList.java" />
+        <option value="$PROJECT_DIR$/src/testClasses/CoordinateSystems/Polygons/MyPolygon.java" />
+        <option value="$PROJECT_DIR$/src/testClasses/CoordinateSystems/Pentagon/MyPentagon.java" />
+        <option value="$PROJECT_DIR$/src/testClasses/CoordinateSystems/Triangles/MyTriangle.java" />
+        <option value="$PROJECT_DIR$/src/myLinkedList/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="3rd homework part 1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3rd homework part 1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3rd homework part 1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3rd homework part 1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542471056820" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../4th homework part 2 (Collections testing)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pussy Destroyer\IdeaProjects\com\netcracker\3rd homework part 1\src\testClasses" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="4th homework part 1 (LinkedList)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bf09e29-ae0f-4b6d-a8e4-4cc53828ea02" name="Default Changelist" comment="" />
+      <created>1542186752835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542186752835</updated>
+      <workItem from="1542186758336" duration="12976000" />
+      <workItem from="1542220330567" duration="2384000" />
+      <workItem from="1542271816004" duration="13018000" />
+      <workItem from="1542308609109" duration="4400000" />
+      <workItem from="1542353141279" duration="2867000" />
+      <workItem from="1542451299408" duration="17697000" />
+      <workItem from="1542473489965" duration="127000" />
+      <workItem from="1542740254634" duration="63000" />
+      <workItem from="1542741169395" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="53603000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2934947" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5277778" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.6781046" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../.." />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/linkedListInterface.java" />
+    <entry file="jrt://C:/Program Files/Java/jdk-11!/java.base/java/util/LinkedList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="702" column="29" selection-start-line="702" selection-start-column="19" selection-end-line="702" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testClasses/coordinateSystems/points/MyPoint.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testClasses/coordinateSystems/pentagon/MyPentagon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testClasses/coordinateSystems/triangles/MyTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-333">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testClasses/coordinateSystems/polygons/MyPolygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedListInterface/ILinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9537">
+          <caret line="600" column="24" selection-start-line="600" selection-start-column="24" selection-end-line="600" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myLinkedList/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="82" column="35" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+            <element signature="e#2059#2060#0" expanded="true" />
+            <element signature="e#3256#3257#0" expanded="true" />
+            <element signature="e#3283#3284#0" expanded="true" />
+            <element signature="e#3932#3933#0" expanded="true" />
+            <element signature="e#3980#3981#0" expanded="true" />
+            <element signature="e#4605#4606#0" expanded="true" />
+            <element signature="e#4652#4653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
