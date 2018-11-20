@@ -179,11 +179,11 @@ public class MyLinkedList<E> implements ILinkedList<E> {
     /*******************************************************
      *  The Node class
      ********************************************************/
-    private class Node<T> {
-        private T data;
-        private Node<T> next;
+    private static class Node<E> {
+        private E data;
+        private Node<E> next;
 
-        private Node(T data, Node<T> next) {
+        private Node(E data, Node<E> next) {
             this.data = data;
             this.next = next;
         }
