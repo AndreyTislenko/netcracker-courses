@@ -8,12 +8,33 @@ import tests.testSets.TestSets;
 import java.util.*;
 
 public class Main<T, K, V> {
-    private Integer[] randomIntArray = createRandomIntArray(100000);
+    private Integer[] randomIntArray = createRandomIntArray(10000);
     private String[] randomStringArray;
 
     public static void main(String[] args) {
         Main<Integer, Integer, String> m = new Main<>();
         m.doOneSimpleTest();
+
+        /*int index = (int)(Math.random()*m.randomIntArray.length);
+        int element = (int)(Math.random()*m.randomIntArray.length);
+        m.doInsertTestForList(index, element);*/
+    }
+
+    private void doInsertTestForList(int indexToInsert, int element) {
+        long timeOfArrayList, timeOfLinkedList;
+        ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(randomIntArray));
+        LinkedList<Integer> linkedList = new LinkedList<>(Arrays.asList(randomIntArray.clone()));
+
+        timeOfArrayList = System.nanoTime();
+        arrayList.add(indexToInsert, element);
+        timeOfArrayList = System.nanoTime() - timeOfArrayList;
+        timeOfLinkedList = System.nanoTime();
+        linkedList.add(indexToInsert, element);
+        timeOfLinkedList = System.nanoTime() - timeOfLinkedList;
+
+        System.out.println("add(" + indexToInsert + ", " + element + "):");
+        System.out.println("ArrayList = " + timeOfArrayList + ", LinkedList = " + timeOfLinkedList + ".");
+        System.out.println("difference(ArrayList - LinkedList) = " + (timeOfArrayList - timeOfLinkedList) + ", quotient(ArrayList/LinkedList) = " + (double)timeOfArrayList/timeOfLinkedList);
     }
 
     private void doOneSimpleTest() {

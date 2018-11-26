@@ -9,9 +9,9 @@ public class TestMaps<K,V> {
     private int size;
 
     public TestMaps(HashMap<K,V> hashMap, LinkedHashMap<K,V> LinkedHashMap, TreeMap<K,V> treeMap) {
-        maps.add((HashMap<K,V>)hashMap.clone());
-        maps.add((LinkedHashMap<K,V>)LinkedHashMap.clone());
-        maps.add((TreeMap<K,V>)treeMap.clone());
+        maps.add((HashMap<K,V>)hashMap.clone());//0
+        maps.add((LinkedHashMap<K,V>)LinkedHashMap.clone());//1
+        maps.add((TreeMap<K,V>)treeMap.clone());//2
         size = hashMap.size();
     }
 
@@ -62,7 +62,7 @@ public class TestMaps<K,V> {
         return System.nanoTime() - time;
     }
 
-    public void decorateTestOperation(long... durations) {
+    private void decorateTestOperation(long... durations) {
         System.out.print("HashMap = " + durations[0]+ " ns, ");
         System.out.print("LinkedHashMap = " + durations[1] + " ns, ");
         System.out.println("TreeMap = " + durations[2] + " ns.");
