@@ -2,6 +2,7 @@ package gui.bookMenuBar.bookTableDialog;
 
 import gui.bookMainFrame.MainFrame;
 import gui.bookTable.BookTable;
+import gui.bookTable.bookTableModelListener.BookTableModelListener;
 
 import javax.swing.*;
 import java.awt.*;
@@ -66,9 +67,10 @@ public class BookTableDialog extends JDialog{
                 int numberOfRows = 1;
                 try {
                     numberOfRows = Integer.parseInt(textFieldNumber.getText());
+                    if(numberOfRows < 0) throw new NumberFormatException();
                 } catch (NumberFormatException exc) {
                     JLabel errorNumberMessage = (JLabel)numberAndErrorPanel.getComponent(1);
-                    errorNumberMessage.setText("Enter a number please");
+                    errorNumberMessage.setText("Enter a positive number please");
                     errorNumberMessage.setForeground(Color.RED);
                     pack();
                     return;
@@ -85,8 +87,11 @@ public class BookTableDialog extends JDialog{
                     pack();
                     return;
                 }
+
                 String tableName = textFieldName.getText();
                 bookTabbedPane.add(tableName, new JScrollPane(bookTable));
+
+                bookTable.getModel().addTableModelListener(new BookTableModelListener(bookTable, bookTabbedPane.getTabCount() - 1));
 
                 setVisible(false);
             }

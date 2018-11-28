@@ -1,14 +1,12 @@
 package gui.bookMainFrame;
 
 import bookTableFile.bookTableFileDeserializer.BookTableFileDeserializer;
-import bookTableFile.bookTableFileSerializer.BookTableFileSerializer;
 import gui.bookButtonPanel.BookButtonPanel;
 import gui.bookMenuBar.BookMenuBar;
 import gui.bookTable.BookTable;
+import gui.bookTable.bookTableModelListener.BookTableModelListener;
 
 import javax.swing.*;
-import javax.swing.event.TableModelEvent;
-import javax.swing.event.TableModelListener;
 import javax.swing.table.TableModel;
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -45,7 +43,7 @@ public class MainFrame extends JFrame {
         BookButtonPanel bookButtonPanel = new BookButtonPanel(bookTabbedPane);
         add(bookButtonPanel, BorderLayout.EAST);
 
-        add(new JTextArea("1) The table is saved automatically. Just add record and close.\n" +
+        add(new JTextArea("1) The table is saved automatically. Just add or insert record and close.\n" +
                           "2) The remove button removes selected row or the last one if no row is selected.\n" +
                           "3) The File option in the menu bar is a demo version. It doesn't have much functionality."),
                 BorderLayout.SOUTH);
@@ -80,25 +78,16 @@ public class MainFrame extends JFrame {
     }
 
     private void saveDefaultBookTableIfChanged() {
-        JScrollPane selectedTab = (JScrollPane)bookTabbedPane.getComponent(0);
+        int indexOfDefaultTab = 0;
+        JScrollPane selectedTab = (JScrollPane)bookTabbedPane.getComponent(indexOfDefaultTab);
         JViewport viewport = selectedTab.getViewport();
         BookTable selectedBookTable = (BookTable)viewport.getView();
 
-        TableModel bookTableModel = selectedBookTable.getModel();
-        bookTableModel.addTableModelListener(new BookTableListener(selectedBookTable));
+        validateBookTable(selectedBookTable, indexOfDefaultTab);
     }
 
-    private class BookTableListener implements TableModelListener {
-        private BookTable bookTable;
-
-        public BookTableListener(BookTable bookTable) {
-            this.bookTable = bookTable;
-        }
-
-        @Override
-        public void tableChanged(TableModelEvent e) {
-            BookTableFileSerializer serializer = new BookTableFileSerializer(new File(MainFrame.defaultUrlWithSpaces), bookTable);
-            serializer.save();
-        }
+    private void validateBookTable(BookTable selectedBookTable, int indexOfSelectedTab) {
+        TableModel bookTableModel = selectedBookTable.getModel();
+        bookTableModel.addTableModelListener(new BookTableModelListener(selectedBookTable, indexOfSelectedTab));
     }
 }

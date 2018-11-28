@@ -1,6 +1,7 @@
 package gui.bookButtonPanel;
 
 import gui.bookTable.BookTable;
+import inputChecker.InputChecker;
 
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
@@ -42,7 +43,12 @@ public class BookButtonPanel extends JPanel {
             @Override
             public void actionPerformed(ActionEvent e) {
                 DefaultTableModel model = (DefaultTableModel)table.getModel();
-                model.addRow(new Object[table.getColumnCount()]);
+                int indexOfRow = table.getSelectedRow();
+                if(indexOfRow == -1) {
+                    model.addRow(new Object[table.getColumnCount()]);
+                } else {
+                    model.insertRow(indexOfRow + 1, new Object[table.getColumnCount()]);
+                }
             }
         });
     }
@@ -53,11 +59,24 @@ public class BookButtonPanel extends JPanel {
             @Override
             public void actionPerformed(ActionEvent e) {
                 DefaultTableModel model = (DefaultTableModel)table.getModel();
-                int indexOfColumn = table.getSelectedRow();
-                if (indexOfColumn != -1) {
-                    model.removeRow(table.getSelectedRow());
-                } else if(table.getRowCount() != 0){
-                    model.removeRow(table.getRowCount() - 1);
+                int indexOfRow = table.getSelectedRow();
+
+                for(int i = 0; i < table.getColumnCount(); i++) {
+                    if (indexOfRow == -1) {
+                        indexOfRow = table.getRowCount() - 1;
+                    }
+                    if(table.getValueAt(indexOfRow, i) != null) {
+                        int option = JOptionPane.showConfirmDialog(table, "Are you sure?", "Warning", JOptionPane.YES_NO_OPTION);
+                        if(option == JOptionPane.YES_OPTION) {
+                            break;
+                        } else {
+                            return;
+                        }
+                    }
+                }
+
+                if (table.getRowCount() != 0) {
+                    model.removeRow(indexOfRow);
                 }
             }
         });
