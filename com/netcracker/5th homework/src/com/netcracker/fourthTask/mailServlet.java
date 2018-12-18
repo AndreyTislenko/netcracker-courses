@@ -76,8 +76,11 @@ public class mailServlet extends HttpServlet {
             printWriter.println("  <body>");
             printWriter.println("<p style='background-color:#7FA7B0; color:white; padding:20px 20px 20px 20px'>" +
                                     "Sent Successfully! <br>" +
-                                    "---> Your addressee: " + addressee + ".<br>" +
-                                "</p>");
+                                    "---> Your addressee: " + addressee + ".<br>");
+            if(cc != null && !cc.isBlank()) {
+                printWriter.println("---> Another addressees: " + cc);
+            }
+            printWriter.println("</p>");
             printWriter.println("  </body>");
             printWriter.println("</html>");
         } catch (MessagingException mex) {
