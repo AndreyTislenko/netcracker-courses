@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e0f9ab5-a631-4c7d-9fc9-dda6ee98716e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../UI 3rd homework/src/main/java/com/netcracker/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5th homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../5th homework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/1st homework/resources/defaultTable/default table.ser" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1st homework/resources/defaultTable/default table.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2nd homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2nd homework/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,17 +54,47 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="850043729">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+          <entry key="ser" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/inputChecker/InputChecker.java">
+        <entry file="file://$PROJECT_DIR$/src/gui/bookMainFrame/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="30" column="79" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="850">
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -106,11 +139,11 @@
         <option value="$PROJECT_DIR$/src/gui/bookTable/BookTable.java" />
         <option value="$PROJECT_DIR$/src/gui/Gui.java" />
         <option value="$PROJECT_DIR$/src/gui/bookTable/bookTableListener/BookTableListener.java" />
-        <option value="$PROJECT_DIR$/src/gui/bookMainFrame/MainFrame.java" />
         <option value="$PROJECT_DIR$/src/gui/bookMenuBar/bookTableDialog/BookTableDialog.java" />
         <option value="$PROJECT_DIR$/src/inputChecker/InputChecker.java" />
         <option value="$PROJECT_DIR$/src/gui/bookButtonPanel/BookButtonPanel.java" />
         <option value="$PROJECT_DIR$/src/gui/bookTable/bookTableModelListener/BookTableModelListener.java" />
+        <option value="$PROJECT_DIR$/src/gui/bookMainFrame/MainFrame.java" />
       </list>
     </option>
   </component>
@@ -120,7 +153,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -132,6 +165,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,20 +183,39 @@
               <item name="1st homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="1st homework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="inputChecker" type="462c0819:PsiDirectoryNode" />
+              <item name="bookTableFile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1st homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1st homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bookTableFile" type="462c0819:PsiDirectoryNode" />
+              <item name="bookTableFileDeserializer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1st homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1st homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bookTableFile" type="462c0819:PsiDirectoryNode" />
+              <item name="bookTableFileSerializer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1st homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1st homework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="defaultTable" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543430792955" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -223,16 +277,23 @@
       <workItem from="1543396061543" duration="26348000" />
       <workItem from="1543572865187" duration="762000" />
       <workItem from="1543656829640" duration="223000" />
+      <workItem from="1545215849944" duration="1796000" />
+      <workItem from="1545221959611" duration="887000" />
+      <workItem from="1545242192376" duration="5000" />
+      <workItem from="1546513647774" duration="51000" />
+      <workItem from="1546513736434" duration="396000" />
+      <workItem from="1546613316765" duration="713000" />
+      <workItem from="1546629697223" duration="625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115604000" />
+    <option name="totallyTimeSpent" value="120077000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="0" width="683" height="728" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16263238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38844302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -242,7 +303,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25816995" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25671142" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -343,20 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bookTableFile/bookTableFileDeserializer/BookTableFileDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bookTableFile/bookTableFileSerializer/BookTableFileSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="54" lean-forward="true" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/bookMenuBar/BookMenuBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="699">
@@ -373,13 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/bookTable/BookTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -418,20 +458,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/bookMainFrame/MainFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/gui/bookTable/BookTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="85" column="64" lean-forward="true" selection-start-line="85" selection-start-column="64" selection-end-line="85" selection-end-column="64" />
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/defaultTable/default table.ser">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/inputChecker/InputChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="30" column="79" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
+        <state relative-caret-position="238">
+          <caret line="30" column="79" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookTableFile/bookTableFileSerializer/BookTableFileSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookTableFile/bookTableFileDeserializer/BookTableFileDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/bookMainFrame/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>Book table</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.5/angular.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.5/angular-animate.js'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+    <script  src="js/angularController.js"></script>
+
+</head>
+
+<body>
+<h2>AngularJS Responsive Book Table</h2>
+<div ng-app="ngAnimate" ng-controller="bookTableController">
+    <div class='addItems'>
+        <table id='addData'>
+
+            <thead>
+            <tr>
+                <td colspan='4'>Add New Book</td>
+            <tr>
+            </thead>
+
+            <tr>
+
+                <td colspan="1">
+                    <label>ID:</label>
+                </td>
+                <td colspan="1">
+                    <input type="text" ng-model="book.id" />
+                </td>
+
+                <td colspan="1">
+                    <label>Author:</label>
+                </td>
+                <td colspan="1">
+                    <input type="text" ng-model="book.author" />
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td colspan="1">
+                    <label>Name:</label>
+                </td>
+                <td colspan="1">
+                    <input type="text" ng-model="book.name" />
+                </td>
+
+                <td colspan="1">
+                    <label>Pages:</label>
+                </td>
+                <td colspan="1">
+                    <input type='text' ng-model="book.pages" />
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td colspan="1">
+                    <label>Date of publishing:</label>
+                </td>
+                <td colspan="1">
+                    <input type="date" ng-model="book.dateOfPublishing" />
+                </td>
+
+                <td colspan="1">
+                    <label>Date of adding:</label>
+                </td>
+                <td colspan="1">
+                    <input type="date" ng-model="book.dateOfAdding"/>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td colspan="1"></td>
+                <td colspan="1">
+                    <input type="button" class='add' value="Add" ng-click="addBook(book)" />
+                </td>
+
+                <td colspan="1"></td>
+                <td colspan="1">
+                    <input type="button" class='close' value="Done" />
+                </td>
+
+            </tr>
+
+        </table>
+    </div>
+    <div class="resp-table">
+        <table id='main' class="animate-container" border="1">
+            <thead>
+            <tr class='act'>
+
+                <td colspan="8" id='search'>
+                    <input type='text' id='input-search' placeholder="Search Books" ng-model="searchItems">
+                </td>
+
+
+                <td colspan="6" class='add'>
+                    <input type="button" class='insert' value="Insert New Book"/>
+                </td>
+
+                <td colspan="6" class='buttons'>
+                    <input type="button" class='save-button' value="Save Table"/>
+                    <input type="button" class='sort-button' value="Sort Table"/>
+                </td>
+
+            </tr>
+
+            <tr class="animate-repeat" id='labels'>
+                <td colspan='1'>
+                    id <input id="sort-id-up" type="radio" name="sort" value="id" checked>
+                </td>
+                <td colspan='4'>
+                    author <input id="sort-author-up" type="radio" name="sort" value="author">
+                </td>
+                <td colspan='3'>
+                    name <input id="sort-name-up" type="radio" name="sort" value="name">
+                </td>
+                <td colspan='2'>
+                    pages <input id="sort-pages-up" type="radio" name="sort" value="pages">
+                </td>
+                <td colspan='3'>
+                    date of publishing <input id="sort-dateOfPublishing-up" type="radio" name="sort" value="dateOfPublishing">
+                </td>
+                <td colspan='3'>
+                    date of adding <input id="sort-dateOfAdding-up" type="radio" name="sort" value="dateOfAdding">
+                </td>
+                <td colspan='1'>remove</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="animate-repeat" ng-repeat="book in books | filter:searchItems">
+                <td data-title="id:" colspan='1'>{{book.id}}</td>
+                <td data-title="author:" colspan='4'>{{book.author}}</td>
+                <td data-title="name:" colspan='3'>{{book.name}}</td>
+                <td data-title="pages:" colspan='2'>{{book.pages}}</td>
+                <td data-title="date of publishing:" colspan='3'>{{book.dateOfPublishing.year}}</td>
+                <td data-title="date of adding:" colspan='3'>{{book.dateOfAdding.dayOfMonth+"."+book.dateOfAdding.month+"."+book.dateOfAdding.year}}</td>
+                <td data-title="" colspan='1' id = 'rem'>
+                    <input type="button" value="Delete" ng-click="removeBook($index)"/>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<br />
+
+<p>
+    <b>Features:</b>
+<ul>
+    <li>Search / Filter Data via Search Bar</li>
+    <li>Add Additional Data Row via Insert Data Button</li>
+    <li>Remove Data Row via Corresponding Delete Button</li>
+    <li>Responsive Data Organization on Resize</li>
+</ul>
+
+</body>
+</html>
